@@ -1,11 +1,11 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
 
 type Props = {
-  title: string,
-}
+  title: string;
+};
 
-export default function Home({ title = 'My Website' } : Props) {
+export default function Home({ title = 'My Website' }: Props) {
   return (
     <div className={styles.container}>
       <Head>
@@ -66,5 +66,5 @@ export default function Home({ title = 'My Website' } : Props) {
         </a>
       </footer>
     </div>
-  )
+  );
 }
